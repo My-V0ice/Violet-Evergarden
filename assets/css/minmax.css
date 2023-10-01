@@ -1,0 +1,377 @@
+/* 1280x720 */
+@media screen and (max-width: 1280px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(12, 75px);
+    }
+
+    .column_items2 {
+        grid-column: 1 / 6;
+    }
+
+    .column_itemsForAfterWarLeftText {
+        grid-column: 1 / 6;
+    }
+}
+
+/* 1024x800 */
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 940px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    img {
+        max-width: 450px;
+        max-height: 300px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(12, 55px);
+    }
+
+    .tragedy-block {
+        background-position: right;
+    }
+
+    .column_items2 {
+        grid-row: 6 / 6;
+    }
+
+    .rows {
+        grid-template-rows: repeat(9, 35px);
+    }
+
+    .row2 {
+        grid-template-rows: repeat(8, 58px);
+    }
+
+    .column_itemsForAWRight {
+        grid-column: 8 / 13;
+    }
+
+    .video {
+        width: 430px;
+        height: 250px;
+    }
+}
+
+
+/* 768px */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .logo-company {
+        width: 300px;
+    }
+
+
+    p {
+        font-size: 12px;
+    }
+
+    img {
+        max-width: 350px;
+        max-height: 200px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(12, 40px);
+    }
+
+    .tragedy-block {
+        background-position: right;
+    }
+
+
+    .column_items {
+        grid-column: 1 / 7;
+    }
+
+    .column_items2 {
+        grid-row: 6 / 6;
+    }
+
+    .rows {
+        grid-template-rows: repeat(9, 35px);
+    }
+
+    .row2 {
+        grid-template-rows: repeat(8, 35px);
+    }
+
+    .column_itemsForAWRight {
+        grid-column: 7 / 13;
+    }
+
+    .column_itemsForAfterWarLeftText {
+        grid-column: 1 / 7;
+    }
+
+    .video {
+        width: 367px;
+        height: 192px;
+    }
+}
+
+/* 425 */
+@media screen and (max-width: 425px) {
+
+    .container {
+        max-width: 365px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .grid {
+        display: block;
+    }
+
+    .tragedy-block {
+        background-position: -1230px;
+    }
+
+    .right {
+        text-align: left;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .afterWar-block {
+        background-position: -185px;
+    }
+
+    .video {
+        width: 300px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .living-doll {
+        background-position: center;
+    }
+
+    .preface {
+        margin-top: 50px;
+    }
+
+    img {
+        width: 250px;
+        margin: 10px 0;
+    }
+
+    .plot-text {
+        margin: 20px 0;
+    }
+
+    .past-block {
+        height: 1320px;
+    }
+
+    .after-block {
+        height: 890px;
+        margin-top: 10px;
+    }
+
+    .afterWar-block {
+        height: 700px;
+    }
+
+    .doll-block {
+        height: 800px;
+    }
+}
+
+
+/* 375px */
+@media screen and (max-width: 375px) {
+
+    .container {
+        max-width: 365px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .grid {
+        display: block;
+    }
+
+    .tragedy-block {
+        background-position: -1230px;
+    }
+
+    .right {
+        text-align: left;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .afterWar-block {
+        background-position: -185px;
+    }
+
+    .video {
+        width: 300px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .living-doll {
+        background-position: center;
+    }
+
+    .preface {
+        margin-top: 50px;
+    }
+
+    img {
+        width: 250px;
+        margin: 10px 0;
+    }
+
+    .plot-text {
+        margin: 20px 0;
+    }
+
+    .past-block {
+        height: 1320px;
+    }
+
+    .after-block {
+        height: 890px;
+        margin-top: 10px;
+    }
+
+    .afterWar-block {
+        height: 700px;
+    }
+
+    .doll-block {
+        height: 800px;
+    }
+}
+
+/* 320px */
+@media screen and (max-width: 320px) {
+
+    .container {
+        max-width: 310px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .heading {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .grid {
+        display: block;
+    }
+
+    .tragedy-block {
+        background-position: -1230px;
+    }
+
+    .right {
+        text-align: left;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .afterWar-block {
+        background-position: -185px;
+    }
+
+    .video {
+        width: 300px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .living-doll {
+        background-position: center;
+    }
+
+    .preface {
+        margin-top: 50px;
+    }
+
+    img {
+        max-width: 200px;
+        margin: 10px 0;
+    }
+
+    .plot-text {
+        margin: 20px 0;
+    }
+
+    .past-block {
+        height: 1320px;
+    }
+
+    .after-block {
+        height: 890px;
+        margin-top: 10px;
+    }
+
+    .afterWar-block {
+        height: 700px;
+    }
+
+    .doll-block {
+        height: 800px;
+    }
+}
+
