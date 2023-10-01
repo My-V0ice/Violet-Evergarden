@@ -1,0 +1,13 @@
+:root {
+    /* color */
+    --color-text: #FDFFFC;
+    --background-color: #031926;
+    --footer: #04A777;
+    /* gradient */
+    --Violet-red: linear-gradient(180deg, #031926 14.06%, #C1292E 56.92%, #8E1B1E 75.47%, #031926 100%);
+    --Violet-yellow: linear-gradient(180deg, rgba(3, 25, 38, 0.40) 2.6%, #FB8B24 34.38%, #031926 92.71%);
+    --Violet-green: linear-gradient(180deg, #031926 0%, #046853 29.17%, rgba(4, 167, 119, 0.10) 76.04%, #031926 100%);
+    /* fonts */
+    --Merriweather-Bold: "Merriweather-Bold";
+    --Merriweather-Regular: "Merriweather-Regular";
+}
