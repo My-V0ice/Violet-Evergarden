@@ -1,7 +1,7 @@
 /* 1280x720 */
 @media screen and (max-width: 1280px) {
     .container {
-        max-width: 1200px;
+        max-width: 1160px;
     }
 
     .grid {
@@ -20,7 +20,7 @@
 /* 1024x800 */
 @media screen and (max-width: 1024px) {
     .container {
-        max-width: 940px;
+        max-width: 900px;
     }
 
     p {
@@ -66,7 +66,7 @@
 /* 768px */
 @media screen and (max-width: 768px) {
     .container {
-        max-width: 720px;
+        max-width: 680px;
     }
 
     .logo-company {
@@ -126,7 +126,7 @@
 @media screen and (max-width: 425px) {
 
     .container {
-        max-width: 365px;
+        max-width: 325px;
     }
 
     .title {
@@ -211,7 +211,7 @@
 @media screen and (max-width: 375px) {
 
     .container {
-        max-width: 365px;
+        max-width: 325px;
     }
 
     .title {
@@ -295,7 +295,7 @@
 @media screen and (max-width: 320px) {
 
     .container {
-        max-width: 310px;
+        max-width: 270px;
     }
 
     .title {
