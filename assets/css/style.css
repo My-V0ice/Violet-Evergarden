@@ -2,6 +2,7 @@
 @import 'fonts.css';
 @import 'var.css';
 @import "minmax.css";
+
 *,
 ::after,
 ::before {
@@ -111,11 +112,16 @@ p {
     font-size: 17px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 /* ******************************* */
 /* Шапка */
 .header {
     display: grid;
-    align-items: end;
     width: 100%;
     min-height: 100vh;
     background-image: url("../images/start--back.webp");
@@ -123,6 +129,43 @@ p {
     background-size: cover;
 }
 
+.menu__btn {
+    display: none;
+}
+
+/*nav*/
+.nav {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    background-color: #031926;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__link {
+    color: #FDFFFC;
+    text-shadow: 2px 1px 0px #000;
+    font-family: var(--Merriweather-Bold);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.titleEnd {
+    margin-top: 60%;
+}
 
 .title {
     text-shadow: 3px 2px 0px #000;
