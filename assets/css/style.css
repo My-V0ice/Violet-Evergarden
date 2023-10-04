@@ -122,14 +122,19 @@ ul {
 /* Шапка */
 .header {
     display: grid;
+    align-items: end;
     width: 100%;
-    min-height: 100vh;
-    background-image: url("../images/start--back.webp");
+    height: 100vh;
+    background-image: url("../images/start--back.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .menu__btn {
+    display: none;
+}
+
+.menu__btn2 {
     display: none;
 }
 
@@ -161,10 +166,6 @@ ul {
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
-}
-
-.titleEnd {
-    margin-top: 60%;
 }
 
 .title {
