@@ -62,10 +62,10 @@
     }
 }
 
-/* 768px */
-@media screen and (max-width: 768px) {
+/* 820px, 810px, 834px, 800px */
+@media screen and (max-width: 860px) {
     .container {
-        max-width: 680px;
+        max-width: 720px;
     }
 
     .logo-company {
@@ -99,6 +99,10 @@
         grid-row: 6 / 6;
     }
 
+    .column_items2 {
+        grid-column: 1 / 7;
+    }
+
     .rows {
         grid-template-rows: repeat(9, 35px);
     }
@@ -121,11 +125,145 @@
     }
 }
 
-/* 425 */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
 
     .container {
-        max-width: 400px;
+        max-width: 560px;
+    }
+
+    .menu__btn {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        z-index: 10;
+        display: block;
+        margin: 0;
+    }
+
+    .menu__btn2 {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        z-index: 10;
+        display: none;
+        margin: 0;
+    }
+
+    /*nav*/
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        background-color: #031926;
+    }
+
+    .nav__list {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        display: none;
+        width: 100%;
+        height: 100vh;
+        background-color: var(--background-color);
+    }
+
+    .nav__item {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .nav__link {
+        font-size: 24px;
+    }
+
+    .title {
+        font-size: 42px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .grid {
+        display: block;
+    }
+
+    .tragedy-block {
+        background-position: -1230px;
+    }
+
+    .right {
+        text-align: left;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .afterWar-block {
+        background-position: -185px;
+    }
+
+    .video {
+        width: 450px;
+        height: 250px;
+        margin-top: 20px;
+    }
+
+    .living-doll {
+        background-position: center;
+    }
+
+    .preface {
+        margin-top: 50px;
+    }
+
+    img {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        margin: 10px auto;
+    }
+
+    .plot-text {
+        margin: 20px 0;
+    }
+
+    .past-block {
+        height: 1320px;
+    }
+
+    .after-block {
+        height: 890px;
+        margin-top: 10px;
+    }
+
+    .afterWar-block {
+        height: 700px;
+    }
+
+    .doll-block {
+        height: 800px;
+    }
+}
+
+
+
+/* 425 */
+@media screen and (max-width: 450px) {
+
+    .container {
+        max-width: 390px;
     }
 
     .menu__btn {
@@ -256,10 +394,10 @@
 
 
 /* 375px */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
 
     .container {
-        max-width: 355px;
+        max-width: 335px;
     }
 
     .menu__btn {
@@ -313,7 +451,7 @@
     }
 
     p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .grid {
@@ -337,8 +475,8 @@
     }
 
     .video {
-        width: 300px;
-        height: 200px;
+        width: 250px;
+        height: 140px;
         margin-top: 20px;
     }
 
@@ -425,6 +563,92 @@
     .video {
         width: 260px;
         height: 145px;
+        margin-top: 20px;
+    }
+
+    .living-doll {
+        background-position: center;
+    }
+
+    .preface {
+        margin-top: 50px;
+    }
+
+    img {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        margin: 10px auto;
+    }
+
+    .plot-text {
+        margin: 20px 0;
+    }
+
+    .past-block {
+        height: 1320px;
+    }
+
+    .after-block {
+        height: 890px;
+        margin-top: 10px;
+    }
+
+    .afterWar-block {
+        height: 700px;
+    }
+
+    .doll-block {
+        height: 800px;
+    }
+}
+
+/* 240px */
+@media screen and (max-width: 250px) {
+
+    .container {
+        max-width: 200px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .heading {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .grid {
+        display: block;
+    }
+
+    .tragedy-block {
+        background-position: -1230px;
+    }
+
+    .right {
+        text-align: left;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .afterWar-block {
+        background-position: -185px;
+    }
+
+    .video {
+        width: 160px;
+        height: 93px;
         margin-top: 20px;
     }
 
