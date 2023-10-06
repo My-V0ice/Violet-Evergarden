@@ -11,7 +11,7 @@
     .column_itemsForAWRight {
         grid-column: 6 / 13;
     }
-    
+
     .column_items2 {
         grid-column: 1 / 6;
     }
@@ -260,7 +260,6 @@
         height: 800px;
     }
 }
-
 
 
 /* 425 */
